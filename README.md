@@ -1,2 +1,39 @@
-# limn-trade-indexer
-On-chain trade history indexer for LIMN analytics
+# Real Trade History Indexer
+
+> Part of the Tessera Sovereign Realification Initiative
+
+## Overview
+Index all LIMN on-chain trades for analytics
+
+## Current State
+**SIMULATED** — Running simulated logic with fake data
+
+## Target State
+Solana transaction parser indexing all LIMN trades with P&L attribution
+
+## Category
+**Market Data**
+
+## Approval
+- **Proposal ID:** RF-C01-005
+- **Votes:** 26/30 APPROVE (86.7%)
+- **Threshold:** 2/3 majority (20 votes)
+- **Status:** ✅ APPROVED
+
+## Primary Files to Modify
+- server/real-limn-data.ts
+
+## Integration Points
+- LIMN Token: BvBuBkxUQxhpiRdvoJfTRxi6JcRF7daNcSjfBnNDpump
+- Community Wallet: 31D8imP7kmNhnvxaBBxjFhocwq9XDG9FBfgsDQuCwxVj
+- Tessera Sovereign Ecosystem
+
+## Getting Started
+```bash
+npm install
+cp .env.example .env
+npm run dev
+```
+
+## License
+MIT — Tessera Sovereign Project
